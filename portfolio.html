@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- main CSS-->
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>Portfolio</title>
 </head>
 
 <body>
 
     <!--navbar wrapper start-->
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-light">
         <!-- Navbar content start -->
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -41,155 +43,93 @@
     <!--navbar wrapper end-->
 
     <!--main body wrapper start-->
-    <div class="jumbotron" style="margin: 0 auto;">
 
-        <!-- card wrapper start-->
-        <div class="card text-white bg-dark mb-3">
+    <!-- card wrapper start-->
+    <div class="container card text-dark mt-3 mb-3 p-0">
 
-            <!--body content-->
-            <div class="card-body">
+        <h1 class="display card-header bg-transparent border-0 m-3">Portfolio</h1>
+        <hr class="my m-3">
 
-                <!-- sub-rows content start-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="display-4">Portfolio</h1>
-                        <hr class="my-4">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./images/CPS-portfolio.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
+        <!--body content-->
+        <div class="card-body border-0">
+
+            <!-- sub-rows content start-->
+            <div class="row justify-content-center card-deck mb-3 p-1">
+
+                <div class="col-md-4 card border-0 p-0">
+                    <img src="./assets/images/Hangman.png" class="card-img img-fluid rounded" alt="Responsive image">
+                    <a href="https://peterztan.github.io/Word-Guess-Game/" target="_blank">
+                        <div class="card-img-overlay d-flex align-items-end">
                             <span class="badge badge-info col-md-12 text-wrap">
-                                <h6>Creative Problem Solving</h6>
+                                <h6 class="card-text">Hangman</h6>
                             </span>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/FS-portfolio.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
+                    </a>
+                </div>
+
+                <div class="col-md-4 card border-0 p-0">
+                    <img src="./assets/images/crystals.jpg" class="card-img img-fluid rounded" alt="Responsive image">
+                    <a href="https://peterztan.github.io/unit-4-game/" target="_blank">
+                        <div class="card-img-overlay d-flex align-items-end">
                             <span class="badge badge-info col-md-12 text-wrap">
-                                <h6 class="card-text">Forensic Science</h6>
+                                <h6 class="card-text">Crystals Game</h6>
                             </span>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/Hangman.png" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <a href="https://peterztan.github.io/Word-Guess-Game/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">Hangman Game</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./images/HIT-portfolio.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
+
+                <div class="col-md-4 card border-0 p-0">
+                    <img src="./assets/images/triviagame.jpg" class="card-img img-fluid rounded" alt="Responsive image">
+                    <a href="https://peterztan.github.io/TriviaGame/" target="_blank">
+                        <div class="card-img-overlay d-flex align-items-end">
                             <span class="badge badge-info col-md-12 text-wrap">
-                                <h6 class="card-text">Healthcare Information Technology</h6>
+                                <h6 class="card-text">Trivia Game</h6>
                             </span>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/MIF-portfolio.png" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                            <span class="badge badge-info col-md-12 text-wrap">
-                                <h6 class="card-text">Mobile Integration</h6>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/crystals.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <a href="https://peterztan.github.io/unit-4-game/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">Crystals Colector Game</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./images/TB-portfolio.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                            <span class="badge badge-info col-md-12 text-wrap">
-                                <h6 class="card-text">Team Building</h6>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/triviagame.jpg" class="card-img img-fluid rounded"
-                            style="padding: 4%;" alt="Responsive image">
-                        <a href="https://peterztan.github.io/TriviaGame/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%; ">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">Trivia Game</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/gif.gif" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <a href="https://peterztan.github.io/GifTastic/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">Gif Search</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./images/train.jpg" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <a href="https://peterztan.github.io/Train-Schedule-App/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">Train Scheduling App</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="./images/Appe-logo.png" class="card-img img-fluid rounded" style="padding: 4%;"
-                            alt="Responsive image">
-                        <a href="https://peterztan.github.io/Project-1/" target="_blank">
-                            <div class="card-img-overlay d-flex align-items-end" style="margin: 2%;">
-                                <span class="badge badge-info col-md-12 text-wrap">
-                                    <h6 class="card-text">KC Shortlist App</h6>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- sub-rows content end-->
 
             </div>
-            <!-- body content end-->
+            <div class="row justify-content-center card-deck mb-3 p-1">
+
+                <div class="col-md-4 card border-0 p-0">
+                    <img src="./assets/images/gif.gif" class="card-img img-fluid rounded" alt="Responsive image">
+                    <a href="https://peterztan.github.io/GifTastic/" target="_blank">
+                        <div class="card-img-overlay d-flex align-items-end">
+                            <span class="badge badge-info col-md-12 text-wrap">
+                                <h6 class="card-text">Gif Search</h6>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 card border-0 p-0">
+                    <img src="./assets/images/Appe-logo.png" class="card-img img-fluid rounded" alt="Responsive image">
+                    <a href="https://peterztan.github.io/Project-1/" target="_blank">
+                        <div class="card-img-overlay d-flex align-items-end">
+                            <span class="badge badge-info col-md-12 text-wrap">
+                                <h6 class="card-text">KC Shortlist App</h6>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- sub-rows content end-->
 
         </div>
-        <!-- card wrapper end-->
+        <!-- body content end-->
 
     </div>
+    <!-- card wrapper end-->
+
     <!--main body wrapper end-->
 
     <!--footer start-->
-    <footer class="footer mt-auto py-3" style="background-color: #343a40;">
+    <footer class="footer mt-auto mb-0 py-3" style="background-color: #343a40;">
         <div class="container  d-flex justify-content-center">
-            <span class="text-white">© 2019</span>
+            <span class="text-dark">© 2019</span>
         </div>
     </footer>
     <!--footer end-->
